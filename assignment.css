@@ -96,6 +96,8 @@
     height: 322px;
     align-self: stretch;
     margin: 30px 0px;}
+
+    
     .button1 p{
         font-weight: 500;
         font-size:22px;
@@ -126,4 +128,12 @@ background: rgb(233, 90, 8);;
      
      .addtpcartitem01{
         display: flex;
+        gap: 10px;
      }
+     .addtpcartitem02{
+        display: flex;
+        gap: 10px;
+     }
+     
+
+     
