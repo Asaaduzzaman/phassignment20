@@ -6,6 +6,10 @@
     max-width: 1140px;
     margin: auto;
 }
+.menuitem{
+    display: flex;
+    justify-content: space-between;
+}
 .ourplan{
     font-weight: 700;
     font-size: 50px;
