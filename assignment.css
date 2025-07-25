@@ -1,13 +1,50 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .container{
-    width: 1140px;
+    max-width: 1140px;
+     margin: auto;
     
 }
 .navbar{
     display: flex;
     justify-content:space-between;
+    background-color: aqua;
+}
+.logo{
+     width: 135px;
+     height: 82px;
+     margin: 0px 10px;
+     
+     
+
+}
+.navitem{
+    display: flex;
+    list-style: none;
+    gap: 23px;
+    margin-top: 25px;
+
+
+}
+.navitem li{
+    border-bottom: 0;
+
+}
+.navitem li a {
+    text-decoration: none;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing: 0%;
+    color:rgb(37, 36, 50);
+
+    
+
+}
+
+.navitem li a i{
+    text-decoration: none;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing: 0%;
+    color:rgb(37, 36, 50);
 }
