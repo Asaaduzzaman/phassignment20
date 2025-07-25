@@ -4,13 +4,10 @@
     padding: 0;
 }
 .container{
-    width: 1240px;
+    width: 1140px;
     
 }
 .navbar{
     display: flex;
     justify-content:space-between;
-    background-color: brown;
-      ;
-    
 }
