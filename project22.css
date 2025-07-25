@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .container{
     max-width: 1140px;
     margin: auto;
@@ -9,11 +6,64 @@
 .menuitem{
     display: flex;
     justify-content: space-between;
+    background-color:aqua ;
 }
-.ourplan{
+.menubar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 30px;
+    padding: 10px 12px;
+    
+}
+.menubar li a{
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+.banner-item{
+    display: flex;
+    gap: 10px;
+    background-color: brown;
+    margin: 50px auto;
+
+}
+.bannerleft h2 {
+    width: 517px;
+    height: 89px;
+    font-weight: 200;
+    font-size: 65px;
+    justify-content: center;
+    
+  
+}
+.spancolor{
+    color: red;
+}
+
+.bannerleft p {
+    justify-content: center;
+    margin-left: 10px; 
+    font-weight: 400;
+    font-size: 22px;
+    top: 191px;
+
+ 
+}
+.spanour{
+    color: red;
+}
+.ourplantsside h2 p{
+    text-align: center;
+    right: 50px;
+
+}
+.ourplantsside h2{
     font-weight: 700;
-    font-size: 50px;
-    color:gb(233, 90, 8);
-
+    font-size:50px;
+   color:rgb(233, 90, 8);
 
 }
+
+    
